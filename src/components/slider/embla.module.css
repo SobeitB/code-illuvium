@@ -1,0 +1,48 @@
+.embla {
+   overflow: hidden;
+}
+
+.embla__container {
+   display: flex;
+}
+
+.embla__slide {
+   position: relative;
+   flex: 0 0 100%;
+   color:white;
+}
+
+.embla__dots{
+   display: flex;
+   list-style: none;
+   -webkit-box-pack:center;
+   justify-content:center;
+   padding-top:10px;
+   margin: 0px auto 128px;
+}
+
+@media (max-width:750px) {
+   .embla__dots{
+      margin: 0px auto 50px;
+   }
+}
+
+.embla__dot{
+   background-color: #fff;
+   cursor: pointer;
+   position: relative;
+   padding: 0px;
+   outline:0px;
+   border:none;
+   border-radius:10px;
+   width: 30px;
+   height:5px;
+   margin:0 7.5px;
+   display: flex;
+   align-items: center;
+   -webkit-box-align:center;
+}
+
+.embla__dot_active{
+   background-color:rgb(27, 202, 205);
+}

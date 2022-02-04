@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  position: relative;
+  /* background: rgb(17, 15, 36); */
+  font-family: sofia-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: inherit;
+}
+
+a{
+  text-decoration:none;
+}
